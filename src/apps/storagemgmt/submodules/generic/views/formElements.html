@@ -1,0 +1,32 @@
+<input type="hidden" name="handler" value="s3"/>
+
+<label class="control-group">
+	<span class="control-label">{{ @root.i18n.storagemgmt.submodules.generic.nameLabel }}</span>
+	<div class="controls">
+		<input type="text" value="{{name}}" name="name">
+	</div>
+</label>
+<label class="control-group">
+	<span class="control-label">{{ @root.i18n.storagemgmt.submodules.generic.hostLabel }}</span>
+	<div class="controls">
+		<input type="text" value="{{name}}" name="settings.host">
+	</div>
+</label>
+<label class="control-group">
+	<span class="control-label">{{ @root.i18n.storagemgmt.submodules.generic.bucketLabel }}</span>
+	<div class="controls">
+		<input type="text" value="{{settings.bucket}}" name="settings.bucket">
+	</div>
+</label>
+<label class="control-group">
+	<span class="control-label">{{ @root.i18n.storagemgmt.submodules.generic.keyLabel }}</span>
+	<div class="controls">
+		<input type="text" value="{{settings.key}}" name="settings.key">
+	</div>
+</label>
+<label class="control-group">
+	<span class="control-label">{{ @root.i18n.storagemgmt.submodules.generic.secretLabel }}</span>
+	<div class="controls">
+		<input type="text" value="{{settings.secret}}" name="settings.secret">
+	</div>
+</label>

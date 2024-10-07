@@ -2,7 +2,7 @@ define(function(require){
 	var $ = require('jquery');
 
 	const CONFIG = {
-		submoduleName: 'mts',
+		submoduleName: 'generic',
 		i18n: [ 'en-US' ]
 	};
 
@@ -10,10 +10,10 @@ define(function(require){
 		requests: {},
 
 		subscribe: {
-			'storagemgmt.fetchStorages': 'defineStorageMTS'
+			'storagemgmt.fetchStorages': 'defineStorageGenericS3'
 		},
 
-		defineStorageMTS: function(args) {
+		defineStorageGenericS3: function(args) {
 			var self = this,
 				storage_nodes = args.storages;
 
@@ -36,7 +36,7 @@ define(function(require){
 			};
 
 			$.extend(true, storage_nodes, {
-					'mts': methods
+					'generic': methods
 				}
 			);
 

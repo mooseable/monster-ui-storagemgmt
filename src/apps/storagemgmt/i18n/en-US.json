@@ -1,9 +1,9 @@
 {
 	"storagemgmt": {
-		"title": "Storage Engine Management",
-		"description": "The Storage Engine Management app allows you manage your storage",
+		"title": "Storage Management",
+		"description": "The Storage Management app allows you manage your storage",
 		"universalErrorMessageTemplate": "Please contact your system administrator to configure %api% API, required for this application to work",
-		"welcome": "Welcome {{variable}} to the Storage Engine Management App",
+		"welcome": "Welcome {{variable}} to the Storage Management App",
 		"settingsBtnText": "Settings",
 		"settingsTitle": "Storage settings",
 		"newStorageBtnText": "New storage",

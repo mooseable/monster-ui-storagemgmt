@@ -2,8 +2,8 @@
 	"name": "storagemgmt",
 	"i18n": {
 		"en-US": {
-			"label": "Storage Engine Management",
-			"description": "The Storage Engine Management app allows you to configure storage"
+			"label": "Storage Management",
+			"description": "The Storage Management app allows you to configure storage"
 		}
 	},
 	"tags": [
