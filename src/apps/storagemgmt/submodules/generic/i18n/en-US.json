@@ -1,11 +1,12 @@
 {
 	"storagemgmt": {
 		"submodules": {
-			"mts": {
+			"generic": {
 				"nameLabel": "Name",
 				"bucketLabel": "Bucket",
 				"keyLabel": "Key",
-				"secretLabel": "Secret"
+				"secretLabel": "Secret",
+				"hostLabel": "Host"
 			}
 		}
 	}
